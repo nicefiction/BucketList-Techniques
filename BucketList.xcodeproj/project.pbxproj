@@ -11,6 +11,7 @@
 		092F30F926C502B500CD0D33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F30F826C502B500CD0D33 /* ContentView.swift */; };
 		092F30FB26C502BA00CD0D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F30FA26C502BA00CD0D33 /* Assets.xcassets */; };
 		092F30FE26C502BA00CD0D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F30FD26C502BA00CD0D33 /* Preview Assets.xcassets */; };
+		092F310826C5177E00CD0D33 /* ComparableForCustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F310726C5177C00CD0D33 /* ComparableForCustomTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		092F30FA26C502BA00CD0D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		092F30FD26C502BA00CD0D33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		092F30FF26C502BA00CD0D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092F310726C5177C00CD0D33 /* ComparableForCustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableForCustomTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		092F30F526C502B500CD0D33 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				092F310626C502DD00CD0D33 /* Day 68 */,
 				092F30F626C502B500CD0D33 /* BucketListApp.swift */,
 				092F30F826C502B500CD0D33 /* ContentView.swift */,
 				092F30FA26C502BA00CD0D33 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				092F30FD26C502BA00CD0D33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		092F310626C502DD00CD0D33 /* Day 68 */ = {
+			isa = PBXGroup;
+			children = (
+				092F310726C5177C00CD0D33 /* ComparableForCustomTypes.swift */,
+			);
+			path = "Day 68";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				092F30F926C502B500CD0D33 /* ContentView.swift in Sources */,
 				092F30F726C502B500CD0D33 /* BucketListApp.swift in Sources */,
+				092F310826C5177E00CD0D33 /* ComparableForCustomTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
