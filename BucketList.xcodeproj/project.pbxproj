@@ -13,6 +13,7 @@
 		092F30FE26C502BA00CD0D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F30FD26C502BA00CD0D33 /* Preview Assets.xcassets */; };
 		092F310826C5177E00CD0D33 /* ComparableForCustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F310726C5177C00CD0D33 /* ComparableForCustomTypes.swift */; };
 		092F310C26C51F1400CD0D33 /* WritingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F310B26C51F1300CD0D33 /* WritingData.swift */; };
+		092F311026C523B100CD0D33 /* SwitchingViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F310F26C523B000CD0D33 /* SwitchingViewStates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		092F30FF26C502BA00CD0D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092F310726C5177C00CD0D33 /* ComparableForCustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableForCustomTypes.swift; sourceTree = "<group>"; };
 		092F310B26C51F1300CD0D33 /* WritingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingData.swift; sourceTree = "<group>"; };
+		092F310F26C523B000CD0D33 /* SwitchingViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewStates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				092F310726C5177C00CD0D33 /* ComparableForCustomTypes.swift */,
 				092F310B26C51F1300CD0D33 /* WritingData.swift */,
+				092F310F26C523B000CD0D33 /* SwitchingViewStates.swift */,
 			);
 			path = "Day 68";
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				092F30F926C502B500CD0D33 /* ContentView.swift in Sources */,
 				092F30F726C502B500CD0D33 /* BucketListApp.swift in Sources */,
 				092F310C26C51F1400CD0D33 /* WritingData.swift in Sources */,
+				092F311026C523B100CD0D33 /* SwitchingViewStates.swift in Sources */,
 				092F310826C5177E00CD0D33 /* ComparableForCustomTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
