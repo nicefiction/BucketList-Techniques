@@ -14,10 +14,11 @@
 		092F310826C5177E00CD0D33 /* ComparableForCustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F310726C5177C00CD0D33 /* ComparableForCustomTypes.swift */; };
 		092F310C26C51F1400CD0D33 /* WritingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F310B26C51F1300CD0D33 /* WritingData.swift */; };
 		092F311026C523B100CD0D33 /* SwitchingViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F310F26C523B000CD0D33 /* SwitchingViewStates.swift */; };
+		09D3E34326C66323008D58C4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3E34226C66323008D58C4 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		092F30F326C502B500CD0D33 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092F30F326C502B500CD0D33 /* BucketList Techniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BucketList Techniques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		092F30F626C502B500CD0D33 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		092F30F826C502B500CD0D33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		092F30FA26C502BA00CD0D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		092F310726C5177C00CD0D33 /* ComparableForCustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableForCustomTypes.swift; sourceTree = "<group>"; };
 		092F310B26C51F1300CD0D33 /* WritingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingData.swift; sourceTree = "<group>"; };
 		092F310F26C523B000CD0D33 /* SwitchingViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewStates.swift; sourceTree = "<group>"; };
+		09D3E34226C66323008D58C4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,7 @@
 		092F30EA26C502B500CD0D33 = {
 			isa = PBXGroup;
 			children = (
-				092F30F526C502B500CD0D33 /* BucketList */,
+				092F30F526C502B500CD0D33 /* BucketList Techniques */,
 				092F30F426C502B500CD0D33 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,22 +52,23 @@
 		092F30F426C502B500CD0D33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				092F30F326C502B500CD0D33 /* BucketList.app */,
+				092F30F326C502B500CD0D33 /* BucketList Techniques.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		092F30F526C502B500CD0D33 /* BucketList */ = {
+		092F30F526C502B500CD0D33 /* BucketList Techniques */ = {
 			isa = PBXGroup;
 			children = (
 				092F30F626C502B500CD0D33 /* BucketListApp.swift */,
 				092F310626C502DD00CD0D33 /* Day 68 */,
+				09D3E34126C66128008D58C4 /* Day 69 */,
 				092F30F826C502B500CD0D33 /* ContentView.swift */,
 				092F30FA26C502BA00CD0D33 /* Assets.xcassets */,
 				092F30FF26C502BA00CD0D33 /* Info.plist */,
 				092F30FC26C502BA00CD0D33 /* Preview Content */,
 			);
-			path = BucketList;
+			path = "BucketList Techniques";
 			sourceTree = "<group>";
 		};
 		092F30FC26C502BA00CD0D33 /* Preview Content */ = {
@@ -86,12 +89,20 @@
 			path = "Day 68";
 			sourceTree = "<group>";
 		};
+		09D3E34126C66128008D58C4 /* Day 69 */ = {
+			isa = PBXGroup;
+			children = (
+				09D3E34226C66323008D58C4 /* MapView.swift */,
+			);
+			path = "Day 69";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		092F30F226C502B500CD0D33 /* BucketList */ = {
+		092F30F226C502B500CD0D33 /* BucketList Techniques */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 092F310226C502BA00CD0D33 /* Build configuration list for PBXNativeTarget "BucketList" */;
+			buildConfigurationList = 092F310226C502BA00CD0D33 /* Build configuration list for PBXNativeTarget "BucketList Techniques" */;
 			buildPhases = (
 				092F30EF26C502B500CD0D33 /* Sources */,
 				092F30F026C502B500CD0D33 /* Frameworks */,
@@ -101,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = BucketList;
+			name = "BucketList Techniques";
 			productName = BucketList;
-			productReference = 092F30F326C502B500CD0D33 /* BucketList.app */;
+			productReference = 092F30F326C502B500CD0D33 /* BucketList Techniques.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 092F30EE26C502B500CD0D33 /* Build configuration list for PBXProject "BucketList" */;
+			buildConfigurationList = 092F30EE26C502B500CD0D33 /* Build configuration list for PBXProject "BucketList Techniques" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				092F30F226C502B500CD0D33 /* BucketList */,
+				092F30F226C502B500CD0D33 /* BucketList Techniques */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				092F30F926C502B500CD0D33 /* ContentView.swift in Sources */,
+				09D3E34326C66323008D58C4 /* MapView.swift in Sources */,
 				092F30F726C502B500CD0D33 /* BucketListApp.swift in Sources */,
 				092F310C26C51F1400CD0D33 /* WritingData.swift in Sources */,
 				092F311026C523B100CD0D33 /* SwitchingViewStates.swift in Sources */,
@@ -288,10 +300,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BucketList Techniques/Preview Content\"";
 				DEVELOPMENT_TEAM = PKTBX2CYQK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_FILE = "BucketList Techniques/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,10 +322,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BucketList Techniques/Preview Content\"";
 				DEVELOPMENT_TEAM = PKTBX2CYQK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_FILE = "BucketList Techniques/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -329,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		092F30EE26C502B500CD0D33 /* Build configuration list for PBXProject "BucketList" */ = {
+		092F30EE26C502B500CD0D33 /* Build configuration list for PBXProject "BucketList Techniques" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				092F310026C502BA00CD0D33 /* Debug */,
@@ -338,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		092F310226C502BA00CD0D33 /* Build configuration list for PBXNativeTarget "BucketList" */ = {
+		092F310226C502BA00CD0D33 /* Build configuration list for PBXNativeTarget "BucketList Techniques" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				092F310326C502BA00CD0D33 /* Debug */,
