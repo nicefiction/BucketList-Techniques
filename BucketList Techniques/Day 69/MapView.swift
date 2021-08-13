@@ -54,6 +54,20 @@ struct MapView: UIViewRepresentable {
          
           return view
       }
+      /// `NOTE` ;
+      ///  I want to briefly mention that `reuseIdentifier` property.
+      ///  Creating views is expensive, which is why SwiftUI has things like the Identifiable protocol
+      ///  – if it can identify its views uniquely then it can tell which ones have changed and which haven’t ,
+      ///  which means it minimizes the amount of work it needs to do.
+      ///  Frameworks such as `UIKit` and `MapKit` has a simpler version of the same concept ,
+      ///  called _reuse identifiers_.
+      ///  These are strings that can be anything we want ,
+      ///  and allow the framework to keep a big array of views ready to be reused .
+      ///  We can ask for one with a specific ID – “give me a pin with the identifier Placemark” –
+      ///  and get one back from the array ready to be used , which means we don’t need to create it again.
+      ///  We specified `nil` as the reuse identifier above, which means we don’t want to reuse views.
+      ///  This is fine when you’re just learning – and realistically at any time when you’re only going to use a handful of pins –
+      ///  but later on I’ll be showing you the more efficient route here , which means reusing views .
    }
    
    
